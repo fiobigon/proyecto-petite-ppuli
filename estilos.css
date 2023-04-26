@@ -183,11 +183,11 @@ article{
     display: flex;
 }
 .card:hover {
-    box-shadow: 0 8px 16px 0 #cde261;
+    box-shadow: 0px 8px 16px 0px #cde261;
 }
 .soporte {
     padding: 2px 16px;
-    text-align: left;
+    text-align: center;
 }
 .card-link {
     color: black;
@@ -203,8 +203,24 @@ article{
     flex-wrap: nowrap;
     padding: 30px;
 }
-
-
+.card {
+    background-color: #ffffb5;
+}
+.asistencia-2 {
+    gap: 50px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.item-servicios {
+    width: 100%;
+}
+.grid-asistencia {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 /* @media screen and (max-width:600px) {
     .grid-container{
